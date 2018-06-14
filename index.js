@@ -22,10 +22,6 @@ function dec(n) {
   return --n;
 }
 
-function parseInt(n) {
-  return parseInt(n, 10);
-}
-
 function makeInt(n) {
   return parseInt(parseFloat(n), 10);
 }
